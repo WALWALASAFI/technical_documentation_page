@@ -1,0 +1,87 @@
+/* Media Query for smaller screens */
+@media (max-width: 600px) {
+  body {
+    background-color: rgb(235, 195, 143);
+    font-size: 18px;
+  }
+}
+
+body{
+  background-color: antiquewhite;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#main-doc {
+  display: flex;
+}
+
+nav header,
+.main-section header {
+  background-color: rgb(58, 29, 5);
+  color: aliceblue;
+  font-size: 25px;
+  font-weight: bolder;
+  padding: 10px 5px;
+  text-align: center;
+}
+
+/* Nav section */
+
+nav {
+  width: 200px; /* Adjusted width */
+  position: sticky;
+  top: 0;
+  height: fit-content;
+}
+
+nav ul li {
+  border-bottom: 1px solid black;
+  display: block;
+  text-align: center;
+  padding: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: rgb(58, 29, 5);
+  font-size: 20px;
+  display: block;
+}
+
+nav ul a:hover {
+  background-color: rgb(58, 29, 5);
+  color: aliceblue;
+}
+
+/* Sections */
+
+#sections {
+  width: 100%; /* Occupy the entire width */
+  padding: 0px 10px;
+}
+
+.main-section p,
+.main-section ul li {
+  padding: 10px 0px;
+  line-height: 40px;
+  text-align: center; /* Centered text */
+  margin: 0 auto; /* Center the content */
+}
+
+.main-section ul li {
+  margin-left: 30px; /* Removed unnecessary margin */
+  padding-left: 0px;
+}
+
+.main-section code {
+  background-color: bisque;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 0px 15px;
+}

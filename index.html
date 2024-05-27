@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technical Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main id="main-doc">
+        <nav id="navbar">
+            <header>HTML Documentation</header>
+            <ul>
+                <li><a href="#Introduction" class="nav-link">Introduction</a></li>
+                <li><a href="#structure_HTML" class="nav-link">Structure HTML</a></li>
+                <li><a href="#Semantic_HTML" class="nav-link">Semantic HTML</a></li>
+                <li><a href="#Versatility" class="nav-link">Versatility</a></li>
+                <li><a href="#Reference" class="nav-link">Reference</a></li>
+            </ul>
+        </nav>
+        <div id="sections">
+            <section class="main-section" id="Introduction">
+                <header>Introduction</header>
+                <p>HTML, or Hypertext Markup Language, is the fundamental language
+                used to create web pages on the internet. 
+                It provides the structure and content of a webpage by using a system of 
+                tags and attributes to define elements within a document.</p>
+                <p>HTML elements are represented by tags enclosed in angle brackets, like
+                &lt;tagname&gt;. These tags can be either paired, meaning they have both 
+                an opening and closing tag.</p>
+
+                <code>
+                    x = 42;
+                </code>
+
+                <p>meaning they don't require a closing tag (e.g., &lt;img&gt; for images). 
+                Tags can also include attributes, which provide additional information 
+                written as name-value pairs (e.g.,). One of the key concepts in HTML 
+                is semantic markup which involves using elements that convey meaning 
+                about the content they contain. For example, &lt;header&gt;, &lt;nav&gt;, &lt;article&gt;,
+                &lt;section&gt;, and &lt;footer&gt; are all semantic elements introduced in HTML5. 
+                Using semantic markup not only helps to structure content more clearly but
+                also improves accessibility and search engine optimization (SEO).</p>
+            </section>
+            <section class="main-section" id="structure_HTML">
+                <header>Structure HTML</header>
+                <p> HTML documents are structured as a hierarchy of elements, starting with 
+                the &lt;html&gt; tag, followed by &lt;head&gt; and &lt;body&gt; tags. The &lt;head&gt; typically contains 
+                meta-information about the document, such as its title and links to stylesheets 
+                scripts, while the &lt;body&gt; contains the visible content of the webpage.</p>
+
+                <p>Tags and Elements: HTML elements are defined by tags enclosed in angle brackets 
+                (&lt; and &gt;). Tags can be either paired (opening and closing) or self-closing. For
+                example, &lt;p&gt; defines a paragraph, &lt;a&gt; defines a hyperlink, and &lt;img&gt; defines an image.</p>
+            </section>
+            <section class="main-section" id="Semantic_HTML">
+                <header>Semantic HTML</header>
+                <p>Semantic HTML refers to using HTML elements according to their intended purpose or 
+                meaning, rather than just for presentation. For instance, &lt;header&gt;, &lt;nav&gt;, &lt;article&gt;,
+                &lt;section&gt;, and &lt;footer&gt; are all examples of semantic elements introduced in HTML5, which
+                help to better structure the content of a webpage and improve its accessibility and search
+                engine optimization (SEO).</p>
+
+                <code> 
+                    function greetMe(yourName){
+                        alert("Hello " + yourName);
+                    }
+                    greetMe("world");
+                </code>
+
+                <p>Here are some key aspects and benefits of using semantic HTML:</p>
+                <ul>
+                    <li>Clearer Structure: Semantic HTML elements (such as &lt;header&gt;, &lt;nav&gt;, &lt;article&gt;, &lt;section&gt;, 
+                    &lt;aside&gt;, &lt;footer&gt;, etc.) provide clear indications of the different parts of a webpage,
+                    making it easier for developers to understand and maintain the code.</li>
+                    <li>Accessibility: Semantic HTML makes web content more accessible to users with disabilities.
+                    Screen readers and other assistive technologies rely on semantic HTML to properly interpret
+                    and present content to users with visual impairments or other disabilities.</li>
+                    <li>Search Engine Optimization (SEO): Search engines use semantic HTML to better understand the 
+                    content and context of web pages. Using semantic elements appropriately can improve the 
+                    visibility of a webpage in search engine results pages (SERPs) Consistency and Maintainability:
+                    Semantic HTML promotes consistency and maintainability in web development projects. By using 
+                    standard semantic elements, developers can create more predictable and easier-to-maintain 
+                    codebases.</li>
+                </ul>
+            </section>
+            <section class="main-section" id="Versatility">
+                <header>Versatility</header>
+                <p>HTML's versatility lies in its ability to structure content for the web in a clear and 
+                understandable manner. Here are a few aspects of HTML's versatility:</p>
+                <ul>
+                    <li>Structuring Content: HTML provides a range of elements that allow developers to structure content semantically. 
+                    From headings (&lt;h1&gt; to &lt;h6&gt;) to paragraphs (&lt;p&gt;), lists (&lt;ul&gt;, &lt;ol&gt;, &lt;li&gt;), tables (&lt;table&gt;, 
+                    &lt;tr&gt;, &lt;td&gt;), and more, HTML offers a variety of elements to organize and present information 
+                    effectively.</li>
+                </ul>
+                <code>
+                    let y = 13;
+                </code>
+                <p>Multimedia Integration: HTML supports the integration of multimedia content seamlessly. Elements 
+                like &lt;img&gt; for images, &lt;audio&gt; for audio files, &lt;video&gt; for videos, and &lt;iframe&gt; for embedding 
+                external content, allow developers to include various media types directly into web pages.</p>
+                <ul>
+                    <li>Forms and Input Elements: HTML provides form elements .</li>
+                </ul>
+                <p>that enable users to interact with web pages by submitting data. This versatility
+                allows for the creation of interactive web applications, user registration forms, surveys, and more.</p>
+                <p>Accessibility Features: HTML includes accessibility features such as semantic elements (&lt;header&gt;, &lt;nav&gt;,
+                &lt;main&gt;, &lt;footer&gt;, etc.), ARIA roles and attributes, and input types (&lt;input type="email"&gt;, &lt;input
+                type="tel"&gt;, etc.), which enhance the accessibility of web content for users with disabilities.</p>
+
+                <code>if (true) { var x = 5; } console.log(x); // 5</code>
+                <p>Responsive Design: HTML supports responsive design techniques, allowing developers to create web 
+                pages that adapt and respond to different screen sizes and devices. By using techniques like media 
+                queries and flexible layout techniques, developers can create websites that look good and function 
+                well across a variety of devices, from desktops to smartphones.</p>
+            </section>
+            <section class="main-section" id="Reference">
+                <header>Reference</header>
+                <p>In HTML, the &lt;reference&gt; tag doesn't exist as a standard tag. However, if you're referring to creating references
+                or citations within an HTML document, you typically achieve this using various methods:</p>
+                <ul>
+                    <li>HTML Comments: You can add references directly into the HTML code as comments.</li>
+                    <li>Anchor Links: You can create links within your document that link to references at the bottom of the page or elsewhere.</li>
+                    <li>Using Lists: You can use ordered or unordered lists to list your references.</li>
+                    <li>Using the &lt;cite&gt; Element: Within text, you can use the &lt;cite&gt; element to denote a citation.</li>
+                </ul>
+                <code>
+                    if (true) {let y = 5; } console.log(y); // ReferenceError: y is not defined
+                </code>
+                <p>Multimedia Integration: HTML supports the integration of multimedia content seamlessly. Elements 
+                like &lt;img&gt; for images, &lt;audio&gt; for audio files, &lt;video&gt; for videos, and &lt;iframe&gt; for embedding 
+                external content, allow developers to include various media types directly into web pages.</p>
+            </section>
+        </div>
+    </main>
+</body>
+</html>

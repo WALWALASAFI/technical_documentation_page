@@ -14,10 +14,6 @@
 
 ## Technologies Used 🛠️
 
-List the technologies or tools you used to develop your project. You can also include the libraries or frameworks you used.
-
-Examples:
-
 - 🔹HTML
 - 🔹CSS
 - 🔹css grid 

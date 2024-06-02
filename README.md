@@ -9,7 +9,7 @@
 ✅3:-- Attributes and Values: 
 
 Demo 📸
-![**Screenshot**](./images/technical demo .jpg)
+![Screenshot](./images/technical demo .jpg)
 
 ## Technologies Used 🛠️
 

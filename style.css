@@ -41,7 +41,7 @@ nav {
 }
 
 nav ul li {
-  border-bottom: 1px solid rgb(6, 6, 6);
+  border-bottom: 1px solid black;
   display: block;
   text-align: center;
   padding: 10px;
@@ -55,38 +55,33 @@ nav ul li a {
 }
 
 nav ul a:hover {
-  background-color: rgb(47, 27, 10);
-  color: rgb(199, 206, 212);
+  background-color: rgb(58, 29, 5);
+  color: aliceblue;
 }
 
 /* Sections */
 
 #sections {
   width: 100%; /* Occupy the entire width */
-  padding: 0 10px; /* Removed unnecessary zero units */
+  padding: 0px 10px;
 }
 
 .main-section p,
 .main-section ul li {
-  padding: 10px 0;
+  padding: 10px 0px;
   line-height: 40px;
-  text-align: center;
-  margin: 0 auto;
+  text-align: center; /* Centered text */
+  margin: 0 auto; /* Center the content */
 }
 
 .main-section ul li {
-  margin-left: 30px;
-  padding-left: 0;
+  margin-left: 30px; /* Removed unnecessary margin */
+  padding-left: 0px;
 }
 
 .main-section code {
   background-color: bisque;
   border-radius: 10px;
   padding: 10px;
-<<<<<<< HEAD
   margin: 0px 15px;
 }
-=======
-  margin: 0 15px; /* Removed unnecessary zero units */
-}
->>>>>>> 8a12424189c03a919fa8e10325c07ab9e4e6be96

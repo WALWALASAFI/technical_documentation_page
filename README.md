@@ -9,7 +9,7 @@
 ✅3:-- Attributes and Values: 
 
 Demo 📸
-![Screenshot](./images/technical demo .jpg)
+![Screenshot](./images/Screenshot.jpg)
 
 ## Technologies Used 🛠️
 
@@ -70,3 +70,6 @@ Reporting Bugs
 Requesting Features
 Making Code Contributions via Pull Requests
 
+
+
+[def]: technic

@@ -41,7 +41,7 @@ nav {
 }
 
 nav ul li {
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid rgb(6, 6, 6);
   display: block;
   text-align: center;
   padding: 10px;
@@ -55,7 +55,7 @@ nav ul li a {
 }
 
 nav ul a:hover {
-  background-color: rgb(58, 29, 5);
+  background-color: rgb(47, 27, 10);
   color: aliceblue;
 }
 

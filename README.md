@@ -8,7 +8,7 @@
 ✅2:-- HTML Elements and Tags: 
 ✅3:-- Attributes and Values: 
 
-Demo-link:-- (https://walwalasafi.github.io/technical_documentation_page/)👌❤
+Demo-link:-- (https://walwalasafi.github.io/technical_documentation_page/)
 
 
 Demo 📸
